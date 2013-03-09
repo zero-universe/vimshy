@@ -13,6 +13,22 @@ cd ~/.vim;
 git submodule init; 
 git submodule update;
 
-#update a bundle
+
+::update a bundle::
 cd ~/.vim/bundle/BUNDLE_NAME;
 git pull origin master
+
+
+::clone and update on an other machine::
+cd ~
+git clone git@github.com:zero-universe/vimshy.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/bashrc ~/.bashrc;
+cd ~/.vim
+git submodule init
+git submodule update
+
+
+::update all modules::
+git submodule foreach git pull origin master
