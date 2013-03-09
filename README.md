@@ -1,6 +1,8 @@
 vimshy
 ======
 
+nice guide for this repo: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
 vim-configs and bashrc
 
 git clone git@github.com:zero-universe/vimshy.git ~/.vim
