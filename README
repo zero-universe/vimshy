@@ -1,7 +1,9 @@
 vimshy
 ======
 
-nice guide for this repo: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+nice guide for this repo: 
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
 
 vim-configs and bashrc
 
@@ -21,3 +23,8 @@ git submodule update
 
 ::update all modules::
 git submodule foreach git pull origin master
+
+
+add new modules:
+
+git submodule add GITHUB-URL/MODULENAME.git ~/.vim/bundle/MODULENAME
