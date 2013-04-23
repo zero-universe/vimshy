@@ -65,3 +65,8 @@ set wrap "Wrap lines
 " Super useful! From an idea by Michael Naumann
 vnoremap <silent> * :call VisualSelection('f')<CR>
 vnoremap <silent> # :call VisualSelection('b')<CR>
+""""""""""""""""""""""""""""""
+
+" Bubble multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
