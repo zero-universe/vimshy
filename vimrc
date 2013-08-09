@@ -15,7 +15,7 @@ set nu
 " load modules
 let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
 
-set mouse=nvi
+"set mouse=nvi
 
 " recognize files
 filetype on
