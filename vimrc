@@ -12,8 +12,9 @@ set history=50                  " keep 50 lines of command line history
 set ruler                       " show the cursor position all the time
 set nu
 
-" load modules
+" load python modules
 let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
+let python_highlight_all = 1
 
 "set mouse=nvi
 
