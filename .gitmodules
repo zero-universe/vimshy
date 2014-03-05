@@ -16,3 +16,6 @@
 [submodule "bundle/python-syntax"]
 	path = bundle/python-syntax
 	url = https://github.com/hdima/python-syntax.git
+[submodule "/home/oleg/.vim/bundle/jedi-vim"]
+	path = /home/oleg/.vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
