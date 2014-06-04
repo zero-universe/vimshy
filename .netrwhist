@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =2
 let g:netrw_dirhist_1='/home/apovis/.vim'
+<<<<<<< HEAD
 let g:netrw_dirhist_2='/home/apovis/KERNEL.BAU/LIBRE'
+=======
+let g:netrw_dirhist_2='/tmp/oleg'
+>>>>>>> f111e8555b6c24ce241a27f54a97bb24d6d320a2
