@@ -13,8 +13,8 @@ set ruler                       " show the cursor position all the time
 set nu
 
 " load python modules
-let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
-let python_highlight_all = 1
+"let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
+"let python_highlight_all = 1
 
 "set mouse=nvi
 
