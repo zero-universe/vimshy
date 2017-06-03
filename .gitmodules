@@ -4,9 +4,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
-[submodule "bundle/pydiction"]
-	path = bundle/pydiction
-	url = https://github.com/rkulla/pydiction.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -19,3 +16,6 @@
 [submodule "/home/oleg/.vim/bundle/jedi-vim"]
 	path = /home/oleg/.vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "/home/oleg/.vim/bundle/powerline2"]
+	path = /home/oleg/.vim/bundle/powerline2
+	url = https://github.com/powerline/powerline.git
