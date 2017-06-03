@@ -8,7 +8,7 @@ colorscheme solarized
 
 set nocompatible                " Use Vim defaults instead of 100% vi compatibility
 set backspace=indent,eol,start  " more powerful backspacing
-set history=50                  " keep 50 lines of command line history
+set history=150                  " keep 50 lines of command line history
 set ruler                       " show the cursor position all the time
 set nu
 
@@ -75,3 +75,6 @@ vnoremap <silent> # :call VisualSelection('b')<CR>
 " Bubble multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
+
+" encryption
+set cm=blowfish2
