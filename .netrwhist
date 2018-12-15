@@ -2,4 +2,8 @@ let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/apovis/.vim'
 let g:netrw_dirhist_2='/tmp/oleg'
+<<<<<<< HEAD
+let g:netrw_dirhist_3='/home/oleg/.neoman'
+=======
 let g:netrw_dirhist_3='/home/apovis/.ssh'
+>>>>>>> 44da2105968001ce2e217592b497ed313df0659c

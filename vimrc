@@ -12,6 +12,13 @@ set history=150                  " keep 150 lines of command line history
 set ruler                       " show the cursor position all the time
 set nu
 
+" better copy/paste behavior
+set paste
+
+" Better command-line completion
+set wildmenu
+
+
 " load python modules
 "let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
 "let python_highlight_all = 1
@@ -28,9 +35,14 @@ filetype plugin on
 
 " Ignore case when searching
 set ignorecase
+set smartcase
 
 " Highlight search results
 set hlsearch
+
+" set parentheses recognition
+set sm
+set smd
 
 " No annoying sound on errors
 set noerrorbells
