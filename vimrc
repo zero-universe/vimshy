@@ -3,18 +3,21 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 syntax enable
-set background=dark
 colorscheme solarized
+set background=dark
 
 set nocompatible                " Use Vim defaults instead of 100% vi compatibility
 set backspace=indent,eol,start  " more powerful backspacing
-set history=150                  " keep 50 lines of command line history
+set history=150                  " keep 150 lines of command line history
 set ruler                       " show the cursor position all the time
 set nu
 
 " load python modules
 "let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
 "let python_highlight_all = 1
+
+" set listchars
+set listchars=eol:¶,space:˽,tab:֍-,extends:›,precedes:‹,nbsp:·,trail:·
 
 "set mouse=nvi
 
@@ -39,8 +42,8 @@ set tm=500
 set encoding=utf8
 
 " spelling 
-set spell
-set spelllang=de_de
+"set spell
+"set spelllang=de_de
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
@@ -78,3 +81,5 @@ vmap <C-Down> ]egv
 
 " encryption
 set cm=blowfish2
+
+
