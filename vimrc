@@ -1,16 +1,27 @@
 " enable pathogen
+call pathogen#infect()                      " use pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 syntax enable
-colorscheme solarized
 set background=dark
+colorscheme solarized
 
 set nocompatible                " Use Vim defaults instead of 100% vi compatibility
 set backspace=indent,eol,start  " more powerful backspacing
-set history=150                  " keep 150 lines of command line history
+set history=150                  " keep 50 lines of command line history
 set ruler                       " show the cursor position all the time
 set nu
+set visualbell                  " Blink cursor on error instead of beeping
+set ttyfast                     " rendering
+
+" no history and keep it in ~/.cache/vim
+let g:netrw_dirhistmax = 0
+let g:netrw_home=$XDG_CACHE_HOME.'/vim'
+
+" set parentheses recognition
+set sm
+set smd
 
 " better copy/paste behavior
 set paste
@@ -18,13 +29,16 @@ set paste
 " Better command-line completion
 set wildmenu
 
+let mapleader = ","
+map <leader>l :set list!<CR>    " Toggle tabs and EOL
+map <silent> <leader>h :noh<cr>
+
+"set listchars=tab:▸\ ,eol:¬,trail:•,extends:#,nbsp:.
+set listchars=eol:¶,space:˽,tab:֍\ ,extends:›,precedes:‹,nbsp:·,trail:·
 
 " load python modules
 "let g:pydiction_location = '/home/oleg/.vim/bundle/pydiction/pydiction.py'
 "let python_highlight_all = 1
-
-" set listchars
-set listchars=eol:¶,space:˽,tab:֍-,extends:›,precedes:‹,nbsp:·,trail:·
 
 "set mouse=nvi
 
@@ -38,15 +52,12 @@ set ignorecase
 set smartcase
 
 " Highlight search results
-set hlsearch
-
-" set parentheses recognition
-set sm
-set smd
+set incsearch           " search as characters are entered
+set hlsearch            " highlight matches
 
 " No annoying sound on errors
 set noerrorbells
-set novisualbell
+"set novisualbell
 set t_vb=
 set tm=500
 
@@ -67,8 +78,17 @@ set ffs=unix,dos,mac
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2			" number of visual spaces per TAB
+set softtabstop=2		" number of spaces in tab when editing
+set expandtab			" tabs are spaces
+
+set cursorline          " highlight current line
+set wildmenu            " visual autocomplete for command menu
+set lazyredraw          " redraw only when we need to.
+set showmatch           " highlight matching [{()}]
+
+
 
 " Linebreak on 500 characters
 set lbr
@@ -93,5 +113,8 @@ vmap <C-Down> ]egv
 
 " encryption
 set cm=blowfish2
+
+" highlight last inserted text
+nnoremap gV `[v`]
 
 
