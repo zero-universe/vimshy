@@ -18,7 +18,7 @@ git clone https://github.com/tpope/vim-unimpaired.git bundle/vim-unimpaired
 #git clone https://github.com/vim-scripts/Pydiction.git bundle/pydiction 
 git clone https://github.com/godlygeek/tabular.git bundle/tabular
 git clone https://github.com/altercation/vim-colors-solarized.git bundle/vim-colors-solarized
-
+git clone https://github.com/tpope/vim-surround.git bundle/vim-surround
 echo "initialising and updating modules"
 git submodule update --init
 

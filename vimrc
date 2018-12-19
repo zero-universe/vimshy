@@ -28,6 +28,7 @@ set paste
 
 " Better command-line completion
 set wildmenu
+set wildmode=longest:full,full
 
 let mapleader = ","
 map <leader>l :set list!<CR>    " Toggle tabs and EOL
