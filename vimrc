@@ -118,4 +118,6 @@ set cm=blowfish2
 " highlight last inserted text
 nnoremap gV `[v`]
 
+" remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
 
