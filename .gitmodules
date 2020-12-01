@@ -1,21 +1,24 @@
 [submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+  path = bundle/fugitive
+  url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = git@github.com:altercation/vim-colors-solarized.git
+  path = bundle/vim-colors-solarized
+  url = git@github.com:altercation/vim-colors-solarize.git
 [submodule "bundle/tabular"]
-	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
+  path = bundle/tabular
+  url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
-	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "bundle/python-syntax"]
-	path = bundle/python-syntax
-	url = https://github.com/hdima/python-syntax.git
-[submodule "/home/oleg/.vim/bundle/jedi-vim"]
-	path = /home/oleg/.vim/bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "/home/oleg/.vim/bundle/powerline2"]
-	path = /home/oleg/.vim/bundle/powerline2
-	url = https://github.com/powerline/powerline.git
+  path = bundle/vim-unimpaired
+  url = https://github.com/tpope/vim-unimpaired.git
+[submodule "/home/oleg/.vim/bundle/vim-yaml-folds"]
+  path = bundle/vim-yaml-folds
+  url = https://github.com/pedrohdz/vim-yaml-folds.git
+[submodule "/home/oleg/.vim/bundle/ansible-vim"]
+  path = bundle/ansible-vim
+  url = https://github.com/pearofducks/ansible-vim.git
+[submodule "/home/oleg/.vim/bundle/vim-jinja2-syntax"]
+  path = bundle/vim-jinja2-syntax
+  url = https://github.com/glench/vim-jinja2-syntax.git
+[submodule "/home/oleg/.vim/bundle/vim-surround"]
+  path = bundle/vim-surround
+  url = https://github.com/anyakichi/vim-surround.git
