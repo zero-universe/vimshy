@@ -1,5 +1,5 @@
 " enable pathogen
-call pathogen#infect()                      
+call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -66,7 +66,7 @@ set tm=500
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
-" spelling 
+" spelling
 "set spell
 "set spelllang=de_de
 
@@ -89,7 +89,6 @@ set cursorline          " highlight current line
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
-
 
 
 " Linebreak on 500 characters
@@ -118,3 +117,8 @@ set cm=blowfish2
 
 " highlight last inserted text
 nnoremap gV `[v`]
+<<<<<<< HEAD
+=======
+
+" remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
