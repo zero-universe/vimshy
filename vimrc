@@ -1,10 +1,11 @@
 " enable pathogen
-call pathogen#infect()                      " use pathogen
+call pathogen#infect()                      
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 syntax enable
 set background=dark
+"set background=light
 colorscheme solarized
 
 set nocompatible                " Use Vim defaults instead of 100% vi compatibility
@@ -117,5 +118,3 @@ set cm=blowfish2
 
 " highlight last inserted text
 nnoremap gV `[v`]
-
-
